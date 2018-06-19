@@ -1,0 +1,31 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.select-order {
+  margin: 90px 0 0 50px;
+  width: 50px;
+  height: 25px;
+  font-size: 18px;
+}
+
+#tic-toc-toe td {
+  height: 50px;
+  width: 50px;
+  border: 1px solid grey;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.reset-button {
+  margin-top: 50px;
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+}
